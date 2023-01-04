@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="AUTOSCROLL_TO_SOURCE" value="true" />
+    <option name="GROUP_BY_SEVERITY" value="true" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b7854439-e386-4dc1-97ac-f1ad918c0a2f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../laboratoare/lab06/src/bugConcurrentHashMap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../laboratoare/lab06/src/bugConcurrentHashMap/Main.java" afterDir="false" />
@@ -3063,6 +3071,18 @@
       <change beforePath="$PROJECT_DIR$/../tema1/test4/out4.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tema1/test4/out5.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tema1/test4/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker/input/input_0/orders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checker/input/input_0/orders.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker/input/input_1/orders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checker/input/input_1/orders.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker/sample_data/input/input_a/order_products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checker/sample_data/input/input_a/order_products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker/sample_data/input/input_a/orders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checker/sample_data/input/input_a/orders.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker/sample_data/input/input_b/order_products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checker/sample_data/input/input_b/order_products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker/sample_data/input/input_b/orders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checker/sample_data/input/input_b/orders.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker/sample_data/input/input_c/order_products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checker/sample_data/input/input_c/order_products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker/sample_data/input/input_c/orders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checker/sample_data/input/input_c/orders.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3077,7 +3097,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -3093,13 +3113,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/silviu/fc/apd/lab/APD/teme/tema2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/silviu/fc/apd/lab/APD/teme/tema2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Tema2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema2" />
+      <module name="tema2" />
+      <option name="PROGRAM_PARAMETERS" value="../checker/input/input_0 24" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tema2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -1,0 +1,8 @@
+Bonus
+
+    For implementing the bonus I used a FileReader for reading the orders byte by byte by each OrderManager thread.
+    Each thread has an index and it computes a start and an end point for the byte range it will read. That computation
+    is made that all the threads will have an equal quantity of data to read. After reading the data, if the start of
+    the end are in the middle of a line, they are calibrated and all the data is put in a buffer then parsed into a map.
+    If there are more threads than orders, some of them will finish executing and will no longer be used in this part
+    of the program.

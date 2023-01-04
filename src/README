@@ -1,0 +1,16 @@
+Black Friday Order Manager
+
+1) OrderManager thread
+    The purpose of this program is using multithreading for managing orders from a file(orders.txt) and "shipping" every product
+    from another one (order_products.txt). It can be run with a number of threads as a parameter. I parallelized the reading of
+    the order file for getting the orders in a map structure, equally distributed between a P number of threads. I then used
+    a thread pool (ExecutorService) for managing the threads that will "ship" the products. For each set of orders (each thread)
+    I initialized a number of tasks equal to the number of products in the order. The task pool is shared between the main threads
+    so that the number of threads cannot exceed the number received as a parameter. This thread will wait for all the products to
+    be shipped and then will mark the order as shipped in an output file. Each thread will also wait for each other to finish in
+    order to close the ExecutorService at the end.
+
+3) ProductManager thread
+    Each product manager thread will read the order_products.txt file in parallel. They each have a order and will search for a
+    specific product trough the file. The thread searches for the Nth product of the order that corresponds to an index. If the
+    product is found, it will be marked as shipped in an output file or else it will go search for the next one.
